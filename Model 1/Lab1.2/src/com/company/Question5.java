@@ -5,6 +5,7 @@
 
 package com.company;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Question5
@@ -21,6 +22,8 @@ public class Question5
         int days = hrs / 24;
 
         hrs = hrs - days * 24;
-        System.out.printf("%d:%d:%d", hrs, min, sec);
+        System.out.printf("%d", hrs);
+        System.out.printf(new DecimalFormat(":00").format(min));
+        System.out.printf(new DecimalFormat(":00").format(sec));
     }
 }
