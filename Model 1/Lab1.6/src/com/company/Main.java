@@ -131,8 +131,33 @@ public class Main
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         double b = sc.nextDouble();
+        double x;
 
+        if((a == 0 && b < 0)|| (a < 0 && b < 0) || a == 0 && b == 0 )
+        {
+            System.out.printf("no such x");
+            return;
+        }
 
+        x = Math.abs(-b / a);
 
+        if(b < 0)
+        {
+            System.out.printf("x<");
+            System.out.printf("%.1f", -x);
+            System.out.printf(" or ");
+            System.out.printf("x>");
+            System.out.printf("%.1f", x);
+        }
+        if(a < 0)
+        {
+            System.out.printf("%.1f", -x);
+            System.out.printf("<x<");
+            System.out.printf("%.1f", x);
+        }
+        if(a >= 0 && b > 0)
+        {
+            System.out.printf("any x");
+        }
     }
 }
