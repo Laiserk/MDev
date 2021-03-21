@@ -127,6 +127,151 @@ package com.company;
 //Число 35 в двоичном виде записывается как 100011. Это 6 разрядов.
 
 
+//import java.util.Scanner;
+//
+//public class Main
+//{
+//
+//    public static void main(String[] args)
+//    {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a, count = 1;
+//        a = sc.nextInt();
+//
+//        while (a / 2 != 0)
+//        {
+//            a = a / 2;
+//            count++;
+//        }
+//
+//        System.out.printf("%d", count);
+//    }
+//}
+
+//6
+//Ввести с клавиатуры нечетное натуральное число N (25<N<100).
+//
+//Найти сумму всех четных чисел в диапазоне от 25 до N.
+//
+//Вывести результат на экран.
+//
+//import java.util.Scanner;
+//
+//public class Main
+//{
+//
+//    public static void main(String[] args)
+//    {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a, sum = 0;
+//        a = sc.nextInt();
+//
+//        for(int i = 25; i < a; i++)
+//        {
+//            if(i % 2 == 0)
+//                sum += i;
+//        }
+//
+//        System.out.printf("%d", sum);
+//    }
+//}
+
+//7
+//Ввести с клавиатуры натуральное число N (N<10^9).
+//
+//Вывести на экран количество десятичных цифр в числе.
+
+//import java.util.Scanner;
+//
+//public class Main
+//{
+//
+//    public static void main(String[] args)
+//    {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a, count = 1;
+//        a = sc.nextInt();
+//
+//        for(int i = 0; i <= 9; i++)
+//        {
+//            a = (int)(a / 10);
+//            if(a != 0)
+//                count ++;
+//        }
+//
+//        System.out.printf("%d", count);
+//    }
+//}
+
+//8
+//С клавиатуры вводится (в целочисленную ячейку памяти!) натуральное число N (N<10^9).
+//Вывести на экран самую младшую нечетную цифру в десятичном представлении числа. Если в числе нет нечетных цифр, вывести "NO".
+
+//import java.util.Scanner;
+//
+//public class Main
+//{
+//
+//    public static void main(String[] args)
+//    {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a, countEven = 0, min = 9999999, countNum = 0;
+//        a = sc.nextInt();
+//
+//        for(int i = 0; i <= 9; i++)
+//        {
+//            if((a % 10) % 2 != 0 && (a % 10) != 1)
+//            {
+//                if(a % 10 < min)
+//                    min = a % 10;
+//            }
+//            else
+//                countEven ++;
+//
+//            a = (int)(a / 10);
+//            countNum++;
+//        }
+//        if(countEven == countNum)
+//            System.out.println("NO");
+//        else
+//            System.out.println(min);
+//    }
+//}
+
+//9
+//С клавиатуры вводится (в целочисленную ячейку памяти!) натуральное число N (N<109).
+//Вывести на экран самую маленькую положительную цифру в десятичном представлении числа.
+
+//import java.util.Scanner;
+//
+//public class Main
+//{
+//
+//    public static void main(String[] args)
+//    {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int a, countEven = 0, min = 9999999, countNum = 0;
+//        a = sc.nextInt();
+//
+//        for(int i = 0; i <= 9; i++)
+//        {
+//            if(a % 10 < min && a % 10 != 0)
+//                min = a % 10;
+//
+//            a = (int)(a / 10);
+//        }
+//            System.out.println(min);
+//    }
+//}
+
+//10
+//Ввести с клавиатуры натуральное число N (N<1000). Вывести на экран наименьшее простое число, которое больше чем N.
+
 import java.util.Scanner;
 
 public class Main
@@ -136,15 +281,28 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
 
-        int a, count = 1;
+        int a, min = 0, flag = 0;
         a = sc.nextInt();
 
-        while (a / 2 != 0)
+        for(int i = 0; i < 100000; i++)
         {
-            a = a / 2;
-            count++;
-        }
+            for(int j = 2; j < i; j++)
+            {
+                if(i % j == 0)
+                {
+                    flag = 1;
+                    break;
+                }
+            }
+            if( i > a  && flag != 1)
+            {
+                min = i;
 
-        System.out.printf("%d", count);
+                break;
+            }
+            flag = 0;
+
+        }
+        System.out.println(min);
     }
 }
