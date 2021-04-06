@@ -1,0 +1,78 @@
+Index: src/com/company/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.company;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String[] args) {\r\n\t// write your code here\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/company/Main.java b/src/com/company/Main.java
+--- a/src/com/company/Main.java	(revision e276b2fad75798b9de880434fd0366cf51b28737)
++++ b/src/com/company/Main.java	(date 1617376598129)
+@@ -3,6 +3,6 @@
+ public class Main {
+ 
+     public static void main(String[] args) {
+-	// write your code here
++
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"525396b3-2793-46e7-8f23-b0599af33239\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/../Lab1.2/.idea/runConfigurations/Main.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/company/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/company/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/company/Vector2D.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1qcPcy8bHolmeOeoyzs5N0cHojL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectView\">\r\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\" splitterProportion=\"0.5\">\r\n      <flattenPackages />\r\n      <showMembers />\r\n      <showModules />\r\n      <showLibraryContents />\r\n      <hideEmptyPackages />\r\n      <abbreviatePackageNames />\r\n      <autoscrollToSource />\r\n      <autoscrollFromSource />\r\n      <sortByType />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Scope\" />\r\n      <pane id=\"PackagesPane\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <PATH>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"untitled104\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode\" />\r\n            </PATH_ELEMENT>\r\n          </PATH>\r\n          <PATH>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"untitled104\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode\" />\r\n            </PATH_ELEMENT>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"untitled104\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode\" />\r\n            </PATH_ELEMENT>\r\n          </PATH>\r\n          <PATH>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"untitled104\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode\" />\r\n            </PATH_ELEMENT>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"untitled104\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode\" />\r\n            </PATH_ELEMENT>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"src\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode\" />\r\n            </PATH_ELEMENT>\r\n            <PATH_ELEMENT>\r\n              <option name=\"myItemId\" value=\"company\" />\r\n              <option name=\"myItemType\" value=\"com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode\" />\r\n            </PATH_ELEMENT>\r\n          </PATH>\r\n        </subPane>\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"525396b3-2793-46e7-8f23-b0599af33239\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1617375992952</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1617375992952</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e276b2fad75798b9de880434fd0366cf51b28737)
++++ b/.idea/workspace.xml	(date 1617376598152)
+@@ -1,13 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="525396b3-2793-46e7-8f23-b0599af33239" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/../Lab1.2/.idea/runConfigurations/Main.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++    <list default="true" id="525396b3-2793-46e7-8f23-b0599af33239" name="Default Changelist" comment="Recreated Lab2.2">
+       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/company/Vector2D.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -77,6 +72,9 @@
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -87,6 +85,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1617375992952</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Recreated Lab2.2">
++      <created>1617376235124</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1617376235124</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -100,4 +106,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Recreated Lab2.2" />
++    <option name="LAST_COMMIT_MESSAGE" value="Recreated Lab2.2" />
++  </component>
+ </project>
+\ No newline at end of file
